@@ -1,4 +1,9 @@
-function magnify(imgID, zoom) {
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./styles.css">
+    <script>
+        function magnify(imgID, zoom) {
             var img, glass, w, h, bw;
             img = document.getElementById(imgID);
 
@@ -59,7 +64,7 @@ function magnify(imgID, zoom) {
 
         /* This will call the magnify function when the document is loaded */
         document.addEventListener("DOMContentLoaded", function() {
-            magnify("myimage", 1.6);
+            magnify("myimage", 1.8);
 
             /* assign the image and the magifier div to variables */
             const image = document.getElementById("myimage");
@@ -98,3 +103,11 @@ function magnify(imgID, zoom) {
             });
         });
             
+    </script>
+</head>
+<body>
+    <div class="img-magnifier-container">
+        <img id="myimage" src="https://64.media.tumblr.com/6daddba1f59f964785f1e747739fd0af/tumblr_o6buie7FKx1qfchfvo1_1280.jpg"  height="440px" alt="illustration by KTT">
+    </div>
+</body>
+</html>

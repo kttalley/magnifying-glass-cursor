@@ -1,0 +1,27 @@
+{
+  "name": "magnifying-glass-cursor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kttalley/magnifying-glass-cursor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kttalley/magnifying-glass-cursor/issues"
+  },
+  "homepage": "https://github.com/kttalley/magnifying-glass-cursor#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "html-minifier": "^4.0.0"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
